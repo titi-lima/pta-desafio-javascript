@@ -53,6 +53,6 @@ window.addEventListener("keydown", (event) => { // ativa sempre que uma tecla fo
     }
 
     // define o desenho do personagem de acordo com a posicao
-    containerCharacter.style.top = `${yPosition}px`; // desenha do personagem de acordo com a posicao em y
+    containerCharacter.style.top = `${yPosition}px`; // desenha o personagem de acordo com a posicao em y
     containerCharacter.style.left = `${xPosition}px` // desenha o personagem de acordo com a posicao em x
 });
