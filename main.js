@@ -3,7 +3,7 @@ const character = document.getElementsByClassName("character")[0];
 const containerCharacter = document.getElementsByClassName("container-character")[0];  
 
 
-const VELOCITY = 10;
+const VELOCITY = 10; // constante que define a "velocidade" do personagem, sendo usada no codigo para adicionar/subtrair da posicao atual
 
 const SCREEN_WIDTH = screen.width; // cria uma constante que representa a largura da tela
 const SCREEN_HEIGHT = screen.height; // cria uma constante que representa a altura da tela
